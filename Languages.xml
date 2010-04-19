@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	
+	Tumblr Sugar
+	Created by Anthony Short
+	Version 1.0
+	Latest Releases @ http://github.com/anthonyshort/
+	
+-->
+
+<settings>
+	
+	<language id="com.anthonyshort.tumblr">
+		<root-zone>text.html.tumblr</root-zone>
+		<name>Tumblr</name>
+		<detectors>
+			<match-content>{block:</match-content>
+			<extension>tumblr</extension>
+		</detectors>
+	</language>
+	
+	<meta>
+		<name>Tumblr</name>
+		<description>Syntax highlighting, snippets, actions and templates for creating Tumblr themes.</description>
+		<author>Anthony Short</author>
+		<identifier>anthonyshort.tumblr</identifier>
+		<version status="preview">0.0.1</version>
+		<download format="git">git://github.com/anthonyshort/tumblr.sugar.git</download>
+	</meta>
+	
+</settings>

@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<action-recipes>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.parentportrait16" category="Tumblr/Reblogs/Parent/Portrait">
+		<title>16x16</title>
+		<text><![CDATA[{ReblogParentPortraitURL-16}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.parentportrait24" category="Tumblr/Reblogs/Parent/Portrait">
+		<title>24x24</title>
+		<text><![CDATA[{ReblogParentPortraitURL-24}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.parentportrait30" category="Tumblr/Reblogs/Parent/Portrait">
+		<title>30x30</title>
+		<text><![CDATA[{ReblogParentPortraitURL-30}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.parentportrait40" category="Tumblr/Reblogs/Parent/Portrait">
+		<title>40x40</title>
+		<text><![CDATA[{ReblogParentPortraitURL-40}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.parentportrait48" category="Tumblr/Reblogs/Parent/Portrait">
+		<title>48x48</title>
+		<text><![CDATA[{ReblogParentPortraitURL-48}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.parentportrait64" category="Tumblr/Reblogs/Parent/Portrait">
+		<title>64x64</title>
+		<text><![CDATA[{ReblogParentPortraitURL-64}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.parentportrait96" category="Tumblr/Reblogs/Parent/Portrait">
+		<title>96x96</title>
+		<text><![CDATA[{ReblogParentPortraitURL-96}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.parentportrait128" category="Tumblr/Reblogs/Parent/Portrait">
+		<title>128x128</title>
+		<text><![CDATA[{ReblogParentPortraitURL-128}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<!-- Root -->
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.rootportrait16" category="Tumblr/Reblogs/Root/Portrait">
+		<title>16x16</title>
+		<text><![CDATA[{ReblogRootPortraitURL-16}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.rootportrait24" category="Tumblr/Reblogs/Root/Portrait">
+		<title>24x24</title>
+		<text><![CDATA[{ReblogRootPortraitURL-24}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.rootportrait30" category="Tumblr/Reblogs/Root/Portrait">
+		<title>30x30</title>
+		<text><![CDATA[{ReblogRootPortraitURL-30}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.rootportrait40" category="Tumblr/Reblogs/Root/Portrait">
+		<title>40x40</title>
+		<text><![CDATA[{ReblogRootPortraitURL-40}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.rootportrait48" category="Tumblr/Reblogs/Root/Portrait">
+		<title>48x48</title>
+		<text><![CDATA[{ReblogRootPortraitURL-48}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.rootportrait64" category="Tumblr/Reblogs/Root/Portrait">
+		<title>64x64</title>
+		<text><![CDATA[{ReblogRootPortraitURL-64}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.rootportrait96" category="Tumblr/Reblogs/Root/Portrait">
+		<title>96x96</title>
+		<text><![CDATA[{ReblogRootPortraitURL-96}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.rootportrait128" category="Tumblr/Reblogs/Root/Portrait">
+		<title>128x128</title>
+		<text><![CDATA[{ReblogRootPortraitURL-128}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+
+</action-recipes>

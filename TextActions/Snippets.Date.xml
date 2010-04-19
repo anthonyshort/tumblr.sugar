@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<action-recipes>
+
+	<!-- Blocks -->
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.block" category="Tumblr/Date/Block">
+		<title>Date</title>
+		<text><![CDATA[{block:Date}{/block:Date}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.newday" category="Tumblr/Date/Block">
+		<title>New Day Date</title>
+		<text><![CDATA[{block:NewDayDate}{/block:NewDayDate}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.sameday" category="Tumblr/Date/Block">
+		<title>Same Day Date</title>
+		<text><![CDATA[{block:SameDayDate}{/block:SameDayDate}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<!-- Singles -->
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.dayofmonth" category="Tumblr/Date/Single/MonthDay">
+		<title>Day of Month ("1" to "31")</title>
+		<text><![CDATA[{DayOfMonth}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.dayofmonthzero" category="Tumblr/Date/Single/MonthDay">
+		<title>Day of Month with Zero ("01" to "31")</title>
+		<text><![CDATA[{DayOfMonthWithZero}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.dayofweek" category="Tumblr/Date/Single/WeekDay">
+		<title>Day of Week ("Monday" through "Sunday")</title>
+		<text><![CDATA[{DayOfWeek}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.shortdayofweek" category="Tumblr/Date/Single/WeekDay">
+		<title>Short Day of Week ("Mon" through "Sun")</title>
+		<text><![CDATA[{ShortDayOfWeek}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.dayofweeknum" category="Tumblr/Date/Single/WeekDay">
+		<title>Day of Week Number ("1" through "7")</title>
+		<text><![CDATA[{DayOfWeekNumber}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.dayofmonthsuffix" category="Tumblr/Date/Single/Suffix">
+		<title>Day of Month Suffix ("st", "nd", "rd", "th")</title>
+		<text><![CDATA[{DayOfMonthSuffix}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.dayofyear" category="Tumblr/Date/Single/Year">
+		<title>Day of Year ("1" through "365")</title>
+		<text><![CDATA[{DayOfYear}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.weekofyear" category="Tumblr/Date/Single/Year">
+		<title>Week of Year ("1" through "52")</title>
+		<text><![CDATA[{WeekOfYear}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.month" category="Tumblr/Date/Single/Month">
+		<title>Month ("January" through "December")</title>
+		<text><![CDATA[{Month}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.shortmonth" category="Tumblr/Date/Single/Month">
+		<title>Short Month ("Jan" through "Dec")</title>
+		<text><![CDATA[{ShortMonth}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.monthnum" category="Tumblr/Date/Single/Month">
+		<title>Month Number ("1" through "12")</title>
+		<text><![CDATA[{MonthNumber}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.monthnumz" category="Tumblr/Date/Single/Month">
+		<title>Month Number With Zero ("01" through "12")</title>
+		<text><![CDATA[{MonthNumberWithZero}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.year" category="Tumblr/Date/Single/Year">
+		<title>Year ("2007")</title>
+		<text><![CDATA[{Year}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.shortyear" category="Tumblr/Date/Single/Year">
+		<title>Short Year ("07")</title>
+		<text><![CDATA[{ShortYear}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.ampm" category="Tumblr/Date/Single/Suffix">
+		<title>AM or PM</title>
+		<text><![CDATA[{AmPm}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.capsampm" category="Tumblr/Date/Single/Suffix">
+		<title>AM or PM (Capitals)</title>
+		<text><![CDATA[{CapitalsAmPm}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.12hour" category="Tumblr/Date/Single/Time">
+		<title>12 Hour ("1" through "12")</title>
+		<text><![CDATA[{12Hour}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.24hour" category="Tumblr/Date/Single/Time">
+		<title>24 Hour ("1" through "24")</title>
+		<text><![CDATA[{24Hour}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.12hourz" category="Tumblr/Date/Single/Time">
+		<title>12 Hour with Zero ("01" through "12")</title>
+		<text><![CDATA[{12HourWithZero}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.24hourz" category="Tumblr/Date/Single/Time">
+		<title>24 Hour with Zero ("01" through "24")</title>
+		<text><![CDATA[{24HourWithZero}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.minutes" category="Tumblr/Date/Single/Time">
+		<title>Minutes ("00" through "59")</title>
+		<text><![CDATA[{Minutes}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.seconds" category="Tumblr/Date/Single/Time">
+		<title>Seconds ("00" through "59")</title>
+		<text><![CDATA[{Seconds}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.beats" category="Tumblr/Date/Single/Misc">
+		<title>Beats ("000" through "999")</title>
+		<text><![CDATA[{Beats}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.timestamp" category="Tumblr/Date/Single/Time">
+		<title>Timestamp ("1172705619")</title>
+		<text><![CDATA[{Timestamp}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.date.timeago" category="Tumblr/Date/Single/Time">
+		<title>Time Ago ("1 minute ago")</title>
+		<text><![CDATA[{TimeAgo}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+</action-recipes>

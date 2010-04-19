@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<action-recipes>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.quote.quote" category="Tumblr/Post/Quote">
+		<title>Quote Content</title>
+		<text><![CDATA[{Quote}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.quote.sourceblock" category="Tumblr/Post/Quote">
+		<title>Source Block</title>
+		<text><![CDATA[{block:Source}{Source}{/block:Source}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.quote.source" category="Tumblr/Post/Quote">
+		<title>Source</title>
+		<text><![CDATA[{Source}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.quote.length" category="Tumblr/Post/Quote">
+		<title>Length</title>
+		<text><![CDATA[{Length}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+</action-recipes>

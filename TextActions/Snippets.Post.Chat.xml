@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<action-recipes>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.chat.titleblock" category="Tumblr/Post/Chat">
+		<title>Title Block</title>
+		<text><![CDATA[{block:Title}{Title}{/block:Title}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.chat.title" category="Tumblr/Post/Chat">
+		<title>Title</title>
+		<text><![CDATA[{Title}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.chat.lines" category="Tumblr/Post/Chat">
+		<title>Lines Block</title>
+		<text><![CDATA[{block:Lines}{/block:Lines}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.chat.labelblock" category="Tumblr/Post/Chat">
+		<title>Label Block</title>
+		<text><![CDATA[{block:Label}{/block:Label}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.chat.label" category="Tumblr/Post/Chat">
+		<title>Label</title>
+		<text><![CDATA[{Label}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.chat.name" category="Tumblr/Post/Chat">
+		<title>Name</title>
+		<text><![CDATA[{Name}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.chat.line" category="Tumblr/Post/Chat">
+		<title>Line</title>
+		<text><![CDATA[{Line}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.chat.usernumber" category="Tumblr/Post/Chat">
+		<title>User Number</title>
+		<text><![CDATA[{UserNumber}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.chat.alt" category="Tumblr/Post/Chat">
+		<title>Odd or Even</title>
+		<text><![CDATA[{Alt}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+
+</action-recipes>

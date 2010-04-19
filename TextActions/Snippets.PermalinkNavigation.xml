@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<action-recipes>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.permpagination" category="Tumblr/PermalinkNavigation/Block">
+		<title>Permalink Pagination</title>
+		<text><![CDATA[{block:PermalinkPagination}{/block:PermalinkPagination}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.block.permprevpost" category="Tumblr/PermalinkNavigation/Block">
+		<title>Previous Post</title>
+		<text><![CDATA[{block:PreviousPost}{/block:PreviousPost}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.block.permnextpost" category="Tumblr/PermalinkNavigation/Block">
+		<title>Next Post</title>
+		<text><![CDATA[{block:NextPost}{/block:NextPost}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.nextpost" category="Tumblr/PermalinkNavigation">
+		<title>Next Post</title>
+		<text><![CDATA[{NextPost}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.prevpost" category="Tumblr/PermalinkNavigation">
+		<title>Previous Post</title>
+		<text><![CDATA[{PreviousPost}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+
+</action-recipes>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+CodeSense Libraries simply define lists of completions, categorized by keys. They don't define any criteria for when they should be used; this is the domain of a CodeSense Provider.
+
+-->
+<codesense version="1.0">
+	
+	<behavior>
+		<append-dynamic>
+			<matched-suffix>(\s*:)|[^:]</matched-suffix>
+			<transform-into>(?1::}$2{/block:${completion}}$3)</transform-into>
+		</append-dynamic>
+	</behavior>
+	
+	<!-- Todo: Split these up into categories to allow for context-sensitive codesense -->
+	
+	<set name="com.tumblr.blocks">
+		<completion string="PermalinkPage"/>
+		<completion string="IndexPage"/>
+		<completion string="PostTitle"/>
+		<completion string="PostSummary"/>
+		<completion string="Pagination"/>
+		<completion string="PreviousPage"/>
+		<completion string="NextPage"/>
+		<completion string="SubmissionsEnabled"/>
+		<completion string="AskEnabled"/>
+		<completion string="HasPages"/>
+		<completion string="PermalinkPagination"/>
+		<completion string="PreviousPost"/>
+		<completion string="NextPost"/>
+		<completion string="Posts"/>
+		<completion string="Text"/>
+		<completion string="Photo"/>
+		<completion string="Photoset"/>
+		<completion string="Quote"/>
+		<completion string="Link"/>
+		<completion string="Chat"/>
+		<completion string="Audio"/>
+		<completion string="Video"/>
+		<completion string="Answer"/>
+		<completion string="Odd"/>
+		<completion string="Even"/>
+		<completion string="More"/>
+		<completion string="RebloggedFrom"/>
+		<completion string="Title"/>
+		<completion string="Caption"/>
+		<completion string="Source"/>
+		<completion string="Description"/>
+		<completion string="Lines"/>
+		<completion string="Label"/>
+		<completion string="ExternalAudio"/>
+		<completion string="AlbumArt"/>
+		<completion string="Artist"/>
+		<completion string="Album"/>
+		<completion string="TrackName"/>
+		<completion string="Date"/>
+		<completion string="NewDayDate"/>
+		<completion string="SameDayDate"/>
+		<completion string="PostNotes"/>
+		<completion string="NoteCount"/>
+		<completion string="HasTags"/>
+		<completion string="Tags"/>
+		<completion string="GroupMembers"/>
+		<completion string="GroupMember"/>
+		<completion string="DayPage"/>
+		<completion string="DayPagination"/>
+		<completion string="PreviousDayPage"/>
+		<completion string="NextDayPage"/>
+		<completion string="TagPage"/>
+		<completion string="Following"/>
+		<completion string="Followed"/>
+		<completion string="Likes"/>
+		<completion string="Twitter"/>
+		<completion string="SearchPage"/>
+		<completion string="NoSearchResults"/>
+		<completion string="If">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::$2}$3{/block:${completion}$2})</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="Post">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::$2}$3{/block:${completion}$2})</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+	</set>
+</codesense>

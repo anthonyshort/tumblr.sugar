@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+CodeSense Libraries simply define lists of completions, categorized by keys. They don't define any criteria for when they should be used; this is the domain of a CodeSense Provider.
+
+-->
+<codesense version="1.0">
+	
+	<behavior>
+		<append-dynamic>
+			<matched-suffix>(\s*:)|[^:]</matched-suffix>
+			<transform-into>(?1::}$0)</transform-into>
+		</append-dynamic>
+	</behavior>
+	
+	<set name="com.tumblr.singles">
+		<completion string="Title"/>
+		<completion string="Description"/>
+		<completion string="MetaDescription"/>
+		<completion string="RSS"/>
+		<completion string="Favicon"/>
+		<completion string="CustomCSS"/>
+		<completion string="PortraitURL-16"/>
+		<completion string="PortraitURL-24"/>
+		<completion string="PortraitURL-30"/>
+		<completion string="PortraitURL-40"/>
+		<completion string="PortraitURL-48"/>
+		<completion string="PortraitURL-64"/>
+		<completion string="PortraitURL-96"/>
+		<completion string="PortraitURL-128"/>
+		<completion string="PreviousPage"/>
+		<completion string="NextPage"/>
+		<completion string="CurrentPage"/>
+		<completion string="TotalPages"/>
+		<completion string="AskLabel"/>
+		<completion string="URL"/>
+		<completion string="Label"/>
+		<completion string="PreviousPost"/>
+		<completion string="NextPost"/>
+		<completion string="Permalink"/>
+		<completion string="ShortURL"/>
+		<completion string="PostID"/>
+		<completion string="TagsAsClasses"/>
+		<completion string="ReblogParentName"/>
+		<completion string="ReblogParentTitle"/>
+		<completion string="ReblogParentURL"/>
+		<completion string="ReblogParentPortraitURL-16"/>
+		<completion string="ReblogParentPortraitURL-24"/>
+		<completion string="ReblogParentPortraitURL-30"/>
+		<completion string="ReblogParentPortraitURL-40"/>
+		<completion string="ReblogParentPortraitURL-48"/>
+		<completion string="ReblogParentPortraitURL-64"/>
+		<completion string="ReblogParentPortraitURL-96"/>
+		<completion string="ReblogParentPortraitURL-128"/>
+		<completion string="ReblogRootName"/>
+		<completion string="ReblogRootTitle"/>
+		<completion string="ReblogRootURL"/>
+		<completion string="ReblogRootPortraitURL-16"/>
+		<completion string="ReblogRootPortraitURL-24"/>
+		<completion string="ReblogRootPortraitURL-30"/>
+		<completion string="ReblogRootPortraitURL-40"/>
+		<completion string="ReblogRootPortraitURL-48"/>
+		<completion string="ReblogRootPortraitURL-64"/>
+		<completion string="ReblogRootPortraitURL-96"/>
+		<completion string="ReblogRootPortraitURL-128"/>
+		<completion string="Body"/>
+		<completion string="PhotoAlt"/>
+		<completion string="Caption"/>
+		<completion string="LinkURL"/>
+		<completion string="LinkOpenTag"/>
+		<completion string="LinkCloseTag"/>
+		<completion string="PhotoURL-500"/>
+		<completion string="PhotoURL-400"/>
+		<completion string="PhotoURL-250"/>
+		<completion string="PhotoURL-100"/>
+		<completion string="PhotoURL-75sq"/>
+		<completion string="PhotoURL-HighRes"/>
+		<completion string="Photoset-500"/>
+		<completion string="Photoset-400"/>
+		<completion string="Photoset-250"/>
+		<completion string="Quote"/>
+		<completion string="Source"/>
+		<completion string="Length"/>
+		<completion string="URL"/>
+		<completion string="Name"/>
+		<completion string="Target"/>
+		<completion string="Line"/>
+		<completion string="UserNumber"/>
+		<completion string="Alt"/>
+		<completion string="AudioPlayer"/>
+		<completion string="AudioPlayerWhite"/>
+		<completion string="AudioPlayerGrey"/>
+		<completion string="AudioPlayerBlack"/>
+		<completion string="PlayCount"/>
+		<completion string="FormattedPlayCount"/>
+		<completion string="ExternalAudioURL"/>
+		<completion string="AlbumArtURL"/>
+		<completion string="Artist"/>
+		<completion string="Album"/>
+		<completion string="TrackName"/>
+		<completion string="Video-500"/>
+		<completion string="Video-400"/>
+		<completion string="Video-250"/>
+		<completion string="Question"/>
+		<completion string="Answer"/>
+		<completion string="Asker"/>
+		<completion string="AskerPortraitURL-16"/>
+		<completion string="AskerPortraitURL-24"/>
+		<completion string="AskerPortraitURL-30"/>
+		<completion string="AskerPortraitURL-40"/>
+		<completion string="AskerPortraitURL-48"/>
+		<completion string="AskerPortraitURL-64"/>
+		<completion string="AskerPortraitURL-96"/>
+		<completion string="AskerPortraitURL-128"/>
+		<completion string="DayOfMonth"/>
+		<completion string="DayOfMonthWithZero"/>
+		<completion string="DayOfWeek"/>
+		<completion string="ShortDayOfWeek"/>
+		<completion string="DayOfWeekNumber"/>
+		<completion string="DayOfMonthSuffix"/>
+		<completion string="DayOfYear"/>
+		<completion string="WeekOfYear"/>
+		<completion string="Month"/>
+		<completion string="ShortMonth"/>
+		<completion string="MonthNumber"/>
+		<completion string="MonthNumberWithZero"/>
+		<completion string="Year"/>
+		<completion string="ShortYear"/>
+		<completion string="AmPm"/>
+		<completion string="CapitalAmPm"/>
+		<completion string="12Hour"/>
+		<completion string="24Hour"/>
+		<completion string="12HourWithZero"/>
+		<completion string="24HourWithZero"/>
+		<completion string="Minutes"/>
+		<completion string="Seconds"/>
+		<completion string="Beats"/>
+		<completion string="Timestamp"/>
+		<completion string="TimeAgo"/>
+		<completion string="PostNotes"/>
+		<completion string="NoteCount"/>
+		<completion string="NoteCountWithLabel"/>
+		<completion string="Tag"/>
+		<completion string="URLSafeTag"/>
+		<completion string="TagURL"/>
+		<completion string="TagURLChrono"/>
+		<completion string="GroupMemberName"/>
+		<completion string="GroupMemberTitle"/>
+		<completion string="GroupMemberURL"/>
+		<completion string="GroupMemberPortraitURL-16"/>
+		<completion string="GroupMemberPortraitURL-30"/>
+		<completion string="GroupMemberPortraitURL-40"/>
+		<completion string="GroupMemberPortraitURL-48"/>
+		<completion string="GroupMemberPortraitURL-64"/>
+		<completion string="GroupMemberPortraitURL-96"/>
+		<completion string="GroupMemberPortraitURL-128"/>
+		<completion string="PostAuthorName"/>
+		<completion string="PostAuthorTitle"/>
+		<completion string="PostAuthorURL"/>
+		<completion string="PostAuthorPortraitURL-16"/>
+		<completion string="PostAuthorPortraitURL-30"/>
+		<completion string="PostAuthorPortraitURL-40"/>
+		<completion string="PostAuthorPortraitURL-48"/>
+		<completion string="PostAuthorPortraitURL-64"/>
+		<completion string="PostAuthorPortraitURL-96"/>
+		<completion string="PostAuthorPortraitURL-128"/>
+		<completion string="PreviousDayPage"/>
+		<completion string="NextDayPage"/>
+		<completion string="Tag"/>
+		<completion string="URLSafeTag"/>
+		<completion string="TagURL"/>
+		<completion string="TagURLChrono"/>
+		<completion string="SearchQuery"/>
+		<completion string="URLSafeSearchQuery"/>
+		<completion string="SearchResultCount"/>
+		<completion string="FollowedName"/>
+		<completion string="FollowedTitle"/>
+		<completion string="FollowedURL"/>
+		<completion string="FollowedPortraitURL-16"/>
+		<completion string="FollowedPortraitURL-30"/>
+		<completion string="FollowedPortraitURL-40"/>
+		<completion string="FollowedPortraitURL-48"/>
+		<completion string="FollowedPortraitURL-64"/>
+		<completion string="FollowedPortraitURL-96"/>
+		<completion string="FollowedPortraitURL-128"/>
+		<completion string="TwitterUsername"/>
+		<completion string="Likes">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:: ${2:limit="$3" }${4:width="$5" }${6:summarize="$7"}}$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="color">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:::$2}$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="font">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:::$2}$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		<completion string="image">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1:::$2}$0)</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+	</set>
+
+</codesense>

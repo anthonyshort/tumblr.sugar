@@ -1,0 +1,54 @@
+Actions<?xml version="1.0"?>
+<action-recipes>
+	
+	<!--
+	<action id="com.anthonyshort.Tumblr.actions.TagDocumentation" category="actions.text.EE/actions.tag">
+        <class>TEALoader</class>
+        <title>Documentation for tag</title>
+        <key-equivalent>control cmd e</key-equivalent>
+        <setup>
+            <script>tag_documentation.rb</script>
+            <input>selection</input>
+            <alternate>line</alternate>
+            <output>text</output>
+            <undo_name>Documentation for tag</undo_name>
+            <syntax-context>text.html.ee, text.html.ee * </syntax-context>
+        </setup>
+    </action>
+	-->
+
+	<!-- TEA Actions -->
+
+	<!-- <action id="com.anthonyshort.Tumblr.actions.WrapInSnippet" category="Tumblr/Action">
+		<class>TEAforEspresso</class>
+		<title>Wrap Selection In Block</title>
+		<key-equivalent>control alt b</key-equivalent>
+		<setup>
+			<action>selections_to_snippets</action>
+			<options>
+				<dict>
+					<key>first_snippet</key>
+					<string>{block:$1}$SELECTED_TEXT{/block:$1}$0</string>
+					<key>undo_name</key>
+         			<string>Wrap Selection In Block</string>
+				</dict>				
+			</options>
+		</setup>
+	</action> -->
+	
+	<!-- <action id="com.anthonyshort.Tumblr.actions.WrapInSnippet" category="Tumblr/Basic">
+			<class>TEAforEspresso</class>
+			<title>Wrap Selection In Block</title>
+			<key-equivalent>control shift B</key-equivalent>
+			<setup>
+				<action>selections_to_snippets</action>
+				<options>
+					<dict>
+						<key>first_snippet</key>
+						<string>{block:$1}$EDITOR_SELECTION{/block:$1}$0</string>
+					</dict>
+				</options>
+			</setup>
+		</action> -->
+
+</action-recipes>

@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<action-recipes>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.block.posttitle" category="Tumblr/Post">
+		<title>Post Title</title>
+		<text><![CDATA[{block:PostTitle}{PostTitle}{/block:PostTitle}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.block.postsummary" category="Tumblr/Post">
+		<title>Post Summary</title>
+		<text><![CDATA[{block:PostSummary}{PostSummary}{/block:PostSummary}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.hasposts" category="Tumblr/Post">
+		<title>Has Posts?</title>
+		<text><![CDATA[{block:Posts}{/block:Posts}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.text" category="Tumblr/Post">
+		<title>Is Text?</title>
+		<text><![CDATA[{block:Text}{/block:Text}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photo" category="Tumblr/Post">
+		<title>Is Photo?</title>
+		<text><![CDATA[{block:Photo}{/block:Photo}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photoset" category="Tumblr/Post">
+		<title>Is Photoset?</title>
+		<text><![CDATA[{block:Photoset}{/block:Photoset}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.quote" category="Tumblr/Post">
+		<title>Is Quote?</title>
+		<text><![CDATA[{block:Quote}{/block:Quote}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.link" category="Tumblr/Post">
+		<title>Is Link?</title>
+		<text><![CDATA[{block:Link}{/block:Link}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.chat" category="Tumblr/Post">
+		<title>Is Chat?</title>
+		<text><![CDATA[{block:Chat}{/block:Chat}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.audio" category="Tumblr/Post">
+		<title>Is Audio?</title>
+		<text><![CDATA[{block:Audio}{/block:Audio}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.video" category="Tumblr/Post">
+		<title>Is Video?</title>
+		<text><![CDATA[{block:Video}{/block:Video}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.Answer" category="Tumblr/Post">
+		<title>Is Answer?</title>
+		<text><![CDATA[{block:Answer}{/block:Answer}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.permalink" category="Tumblr/Post">
+		<title>Permalink</title>
+		<text><![CDATA[[{Permalink}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.shorturl" category="Tumblr/Post">
+		<title>Short URL</title>
+		<text><![CDATA[[{ShortURL}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.id" category="Tumblr/Post">
+		<title>Post ID</title>
+		<text><![CDATA[[{PostID}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.tagsasclass" category="Tumblr/Post">
+		<title>Tags as CSS classes</title>
+		<text><![CDATA[[{TagsAsClasses}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.number" category="Tumblr/Post">
+		<title>Is Post #?</title>
+		<text><![CDATA[[{block:Post$0}$1{/block:Post$0}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.odd" category="Tumblr/Post">
+		<title>Is odd?</title>
+		<text><![CDATA[[{block:Odd}{/block:Odd}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.even" category="Tumblr/Post">
+		<title>Is even?</title>
+		<text><![CDATA[[{block:Even}{/block:Even}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.more" category="Tumblr/Post">
+		<title>Has more?</title>
+		<text><![CDATA[[{block:More}{/block:More}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+
+</action-recipes>

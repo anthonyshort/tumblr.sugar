@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<action-recipes>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.block.pagination" category="Tumblr/Navigation/Block">
+		<title>Pagination</title>
+		<text><![CDATA[{block:Pagination}{/block:Pagination}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.block.prevpage" category="Tumblr/Navigation/Single/NextPrev">
+		<title>Previous Page</title>
+		<text><![CDATA[{block:PreviousPage}{PreviousPage}{/block:PreviousPage}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.block.nextpage" category="Tumblr/Navigation/Single/NextPrev">
+		<title>Next Page</title>
+		<text><![CDATA[{block:NextPage}{NextPage}{/block:NextPage}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.block.currentpage" category="Tumblr/Navigation/Single">
+		<title>Current Page Number</title>
+		<text><![CDATA[{CurrantPage}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.block.totalpages" category="Tumblr/Navigation/Single">
+		<title>Total Pages</title>
+		<text><![CDATA[{TotalPages}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.block.submissionsenabled" category="Tumblr/Navigation/Block">
+		<title>Submissions</title>
+		<text><![CDATA[{block:SubmissionsEnabled}{/block:SubmissionsEnabled}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.block.askenabled" category="Tumblr/Navigation/Block">
+		<title>Ask</title>
+		<text><![CDATA[{block:AskEnabled}{/block:AskEnabled}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.asklabel" category="Tumblr/Navigation/Single">
+		<title>Ask Label</title>
+		<text><![CDATA[{AskLabel}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+
+</action-recipes>

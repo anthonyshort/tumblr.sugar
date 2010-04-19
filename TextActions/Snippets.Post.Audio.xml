@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<action-recipes>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.audio.captionblock" category="Tumblr/Post/Audio/Block">
+		<title>Caption Block</title>
+		<text><![CDATA[{block:Caption}{Caption}{/block:Caption}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.audio.caption" category="Tumblr/Post/Audio/Single">
+		<title>Caption</title>
+		<text><![CDATA[{Caption}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.audio.player" category="Tumblr/Post/Audio/Single">
+		<title>Default Audio Player</title>
+		<text><![CDATA[{AudioPlayer}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.audio.player.white" category="Tumblr/Post/Audio/Single">
+		<title>White Audio Player</title>
+		<text><![CDATA[{AudioPlayerWhite}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.audio.player.grey" category="Tumblr/Post/Audio/Single">
+		<title>Grey Audio Player</title>
+		<text><![CDATA[{AudioPlayerGrey}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.audio.player.black" category="Tumblr/Post/Audio/Single">
+		<title>Black Audio Player</title>
+		<text><![CDATA[{AudioPlayerBlack}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.audio.playcount" category="Tumblr/Post/Audio/Single">
+		<title>Play Count</title>
+		<text><![CDATA[{PlayCount}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.audio.fplaycount" category="Tumblr/Post/Audio/Single">
+		<title>Formatted Play Count</title>
+		<text><![CDATA[{FormattedPlayCount}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.audio.ext.block" category="Tumblr/Post/Audio/Block">
+		<title>External Audio Block</title>
+		<text><![CDATA[{block:ExternalAudio}{ExternalAudioURL}{/block:ExternalAudio}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.audio.artblock" category="Tumblr/Post/Audio/Block">
+		<title>Album Art Block</title>
+		<text><![CDATA[{block:AlbumArt}{AlbumArtURL}{/block:AlbumArt}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.audio.art" category="Tumblr/Post/Audio/Single">
+		<title>Album Art URL</title>
+		<text><![CDATA[{AlbumArtURL}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<!-- Artist -->
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.audio.artistblock" category="Tumblr/Post/Audio/Block">
+		<title>Artist Block</title>
+		<text><![CDATA[{block:Artist}{Artist}{/block:Artist}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.audio.artist" category="Tumblr/Post/Audio/Single">
+		<title>Artist</title>
+		<text><![CDATA[{Artist}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<!-- Album -->
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.audio.albumblock" category="Tumblr/Post/Audio/Block">
+		<title>Album Block</title>
+		<text><![CDATA[{block:Album}{Album}{/block:Album}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.audio.album" category="Tumblr/Post/Audio/Single">
+		<title>Album</title>
+		<text><![CDATA[{Album}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<!-- Track -->
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.audio.trackblock" category="Tumblr/Post/Audio/Block">
+		<title>Track Name Block</title>
+		<text><![CDATA[{block:TrackName}{TrackName}{/block:TrackName}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.audio.trackname" category="Tumblr/Post/Audio/Single">
+		<title>Track Name</title>
+		<text><![CDATA[{TrackName}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+</action-recipes>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<action-recipes>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.reblogged" category="Tumblr/Reblogs/Block">
+		<title>Reblogged From</title>
+		<text><![CDATA[{block:RebloggedFrom}{/block:RebloggedFrom}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.parentname" category="Tumblr/Reblogs/Parent">
+		<title>Parent Name</title>
+		<text><![CDATA[{ReblogParentName}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.parentname" category="Tumblr/Reblogs/Parent">
+		<title>Parent Title</title>
+		<text><![CDATA[{ReblogParentTitle}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.parenturl" category="Tumblr/Reblogs/Parent">
+		<title>Parent URL</title>
+		<text><![CDATA[{ReblogParentURL}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.rootname" category="Tumblr/Reblogs/Root">
+		<title>Root Name</title>
+		<text><![CDATA[{ReblogRootName}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.roottitle" category="Tumblr/Reblogs/Root">
+		<title>Root Title</title>
+		<text><![CDATA[{ReblogRootTitle}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.reblog.rooturl" category="Tumblr/Reblogs/Root">
+		<title>Root URL</title>
+		<text><![CDATA[{ReblogRootURL}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+
+</action-recipes>

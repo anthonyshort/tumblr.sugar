@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<action-recipes>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.link.url" category="Tumblr/Post/Link">
+		<title>URL</title>
+		<text><![CDATA[{URL}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.link.name" category="Tumblr/Post/Link">
+		<title>Name</title>
+		<text><![CDATA[{Name}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.link.target" category="Tumblr/Post/Link">
+		<title>Target</title>
+		<text><![CDATA[{Target}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.link.descblock" category="Tumblr/Post/Link">
+		<title>Description Block</title>
+		<text><![CDATA[{block:Description}{Description}{/block:Description}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.link.desc" category="Tumblr/Post/Link">
+		<title>Description</title>
+		<text><![CDATA[{Description}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+</action-recipes>

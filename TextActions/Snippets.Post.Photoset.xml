@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<action-recipes>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photoset.captionblock" category="Tumblr/Post/Photoset">
+		<title>Caption Block</title>
+		<text><![CDATA[{block:Caption}{Caption}{/block:Caption}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photoset.caption" category="Tumblr/Post/Photoset">
+		<title>Caption</title>
+		<text><![CDATA[{Caption}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photoset.embed500" category="Tumblr/Post/Photoset">
+		<title>Embed Photoset (500px wide)</title>
+		<text><![CDATA[{Photoset-500}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photoset.embed400" category="Tumblr/Post/Photoset">
+		<title>Embed Photoset (400px wide)</title>
+		<text><![CDATA[{Photoset-400}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photoset.embed250" category="Tumblr/Post/Photoset">
+		<title>Embed Photoset (250px wide)</title>
+		<text><![CDATA[{Photoset-250}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+</action-recipes>

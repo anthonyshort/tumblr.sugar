@@ -1,0 +1,30 @@
+/*
+	@theme Tumblr Placeholder
+	@placeholder tumblr
+*/
+
+@base {
+	color: #fff;
+	background-color: #000;
+}
+
+tumblr tumblr.tag > name, 
+tumblr tumblr.tag > punctuation,
+tumblr tumblr.tag > string
+{ color:#8ce999; }
+
+tumblr tumblr.tag attribute-name  {
+	color:#9ecffd;
+	font-weight:bold; 
+}
+
+tumblr tumblr.tag attribute { 
+	color:#d144ca;
+}
+
+tumblr tumblr.tag.single.conditional { background:rgba(37,59,118,0.35);}
+
+tumblr tumblr.tag.single,
+tumblr tumblr.tag.single > name, 
+tumblr tumblr.tag.single > punctuation, 
+tumblr tumblr.tag.single attribute-name { color:#9ecffd;}

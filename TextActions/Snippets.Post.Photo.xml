@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<action-recipes>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photo.alt" category="Tumblr/Post/Photo">
+		<title>Photo Alt</title>
+		<text><![CDATA[{PhotoAlt}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photo.captionblock" category="Tumblr/Post/Photo">
+		<title>Caption Block</title>
+		<text><![CDATA[{block:Caption}{Caption}{/block:Caption}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photo.caption" category="Tumblr/Post/Photo">
+		<title>Caption</title>
+		<text><![CDATA[{Caption}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photo.linkurl" category="Tumblr/Post/Photo">
+		<title>Photo Link URL</title>
+		<text><![CDATA[{LinkURL}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photo.linkopen" category="Tumblr/Post/Photo">
+		<title>Photo Link Open Tag</title>
+		<text><![CDATA[{LinkOpenTag}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photo.linkclose" category="Tumblr/Post/Photo">
+		<title>Photo Link Close Tag</title>
+		<text><![CDATA[{LinkCloseTag}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photo.url500" category="Tumblr/Post/Photo/Url">
+		<title>Photo URL (500px wide max)</title>
+		<text><![CDATA[{PhotoURL-500}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photo.url400" category="Tumblr/Post/Photo/Url">
+		<title>Photo URL (400px wide max)</title>
+		<text><![CDATA[{PhotoURL-400}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photo.url250" category="Tumblr/Post/Photo/Url">
+		<title>Photo URL (250px wide max)</title>
+		<text><![CDATA[{PhotoURL-250}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photo.url100" category="Tumblr/Post/Photo/Url">
+		<title>Photo URL (100px wide max)</title>
+		<text><![CDATA[{PhotoURL-100}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photo.url75" category="Tumblr/Post/Photo/Url">
+		<title>Photo URL (75x75)</title>
+		<text><![CDATA[{PhotoURL-75sq}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photo.urlhires" category="Tumblr/Post/Photo/Url">
+		<title>Photo URL (High-res)</title>
+		<text><![CDATA[{PhotoURL-HighRes}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.photo.urlhiresblock" category="Tumblr/Post/Photo/Url">
+		<title>High-res Photo Block</title>
+		<text><![CDATA[{block:HighRes}{/block:HighRes}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+</action-recipes>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<action-recipes>
+	
+	<!-- Blocks -->
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.notes.block" category="Tumblr/Post/Notes/Block">
+		<title>Post Notes Block</title>
+		<text><![CDATA[{block:PostNotes}{PostNotes}{/block:PostNotes}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.notes.countblock" category="Tumblr/Post/Notes/Block">
+		<title>Notes Count Block</title>
+		<text><![CDATA[{block:NoteCount}{NoteCount}{/block:NoteCount}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<!-- Singles -->
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.notes.postnotes" category="Tumblr/Post/Notes/Single">
+		<title>Post Notes</title>
+		<text><![CDATA[{PostNotes}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.notes.count" category="Tumblr/Post/Notes/Single">
+		<title>Note Count</title>
+		<text><![CDATA[{NoteCount}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.notes.countlabel" category="Tumblr/Post/Notes/Single">
+		<title>Note Count (with label)</title>
+		<text><![CDATA[{NoteCountWithLabel}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+</action-recipes>

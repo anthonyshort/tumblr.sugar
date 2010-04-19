@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<action-sort-instructions>
+	
+	<sort-template>
+		<selector>tools.Snippets.single</selector>
+		<selector>tools.Snippets.portrait</selector>
+		<selector>tools.Snippets.post</selector>
+		<selector>tools.Snippets.page</selector>
+		<selector>tools.Templates</selector>
+		<selector>actions.tag</selector>
+	</sort-template>
+	
+</action-sort-instructions>

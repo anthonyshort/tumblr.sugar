@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<action-recipes>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.block.permalinkpage" category="Tumblr/Pages/Page">
+		<title>Permalink Page</title>
+		<text><![CDATA[{block:PermalinkPage}{/block:PermalinkPage}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.block.indexpage" category="Tumblr/Pages/Page">
+		<title>Index Page</title>
+		<text><![CDATA[{block:IndexPage}{/block:IndexPage}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.haspages" category="Tumblr/Pages/Block">
+		<title>Has Pages</title>
+		<text><![CDATA[{block:HasPages}{/block:HasPages}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.pages" category="Tumblr/Pages/Block">
+		<title>Pages</title>
+		<text><![CDATA[{block:Pages}{/block:Pages}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.pageurl" category="Tumblr/Pages/Single">
+		<title>Page URL</title>
+		<text><![CDATA[{URL}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.pagelabel" category="Tumblr/Pages/Single">
+		<title>Page Label</title>
+		<text><![CDATA[[{Label}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+
+</action-recipes>

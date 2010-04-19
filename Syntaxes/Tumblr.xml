@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<syntax name="text.html.tumblr">
+	
+    <zones>
+		<include collection="everything"/>
+    </zones>
+
+    <library>
+	
+		<collection name="everything">
+
+			<!-- HTML/CSS/JS -->
+			<include syntax="text.html.basic"/>
+
+			<!-- Tumblr -->
+	        <include collection="tag"/>
+	
+		</collection>
+
+        <collection name="tag">
+	
+			<zone name="tumblr.tag.block.open">
+		       <starts-with>
+				<expression>\s*(\{)(block\:[^}]+)</expression>
+					<capture number="1" name="punctuation.definition.begin"/>
+                    <capture number="2" name="name"/>
+		        </starts-with>
+				<ends-with>
+					<expression>(/?)(\})\s*</expression>
+					<capture number="2" name="punctuation.definition.end"/>
+				</ends-with>
+			</zone>
+			
+			<zone name="tumblr.tag.block.close">
+		        <starts-with>
+		            <expression>\s*(\{\/)(block\:[^}]+)</expression>
+					<capture number="1" name="punctuation.definition.begin"/>
+                 	<capture number="2" name="name"/>
+		        </starts-with>
+				<ends-with>
+					<expression>(/?)(\})\s*</expression>
+					<capture number="2" name="punctuation.definition.end"/>
+				</ends-with>
+			</zone>
+	
+			<zone name="tumblr.tag.single">
+				<starts-with>
+	                <expression>\s*(\{)([^}]+)</expression>
+					<capture number="1" name="punctuation.definition.begin"/>
+	                <capture number="2" name="name"/>
+	            </starts-with>
+                <ends-with>
+                    <expression>(/?)(})\s*</expression>
+                    <capture number="2" name="punctuation.definition.end"/>
+                </ends-with>
+			</zone>
+			
+        </collection>
+       
+    </library>
+</syntax>

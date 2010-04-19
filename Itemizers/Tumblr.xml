@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemizer>
+
+	<recipe name="block">
+		<start-selector>tumblr.tag.block.open:has-child(name:capture(name))</start-selector>
+		<end-selector>tumblr.tag.block.close:has-child(name[text == $name.text])</end-selector>
+		<subrecipes>
+			<include-root-recipes/>
+		</subrecipes>
+		<class>ESBaseItem</class>
+	</recipe>
+	
+	<recipe name="single">
+		<selector>tumblr.tag.single:has-child(name:capture(name))</selector>
+		<class>ESBaseItem</class>
+	</recipe>
+
+</itemizer>

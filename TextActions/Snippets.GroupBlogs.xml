@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<action-recipes>
+	
+	<!-- Blocks -->
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.tags.hastagsblock" category="Tumblr/Post/Tags/Block">
+		<title>Has Tags Block</title>
+		<text><![CDATA[{block:HasTags}{/block:HasTags}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<!-- Singles -->
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.tags.tag" category="Tumblr/Post/Tags/Single">
+		<title>Tag</title>
+		<text><![CDATA[{Tag}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+
+</action-recipes>

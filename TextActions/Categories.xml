@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<action-categories>
+	
+	<category id="Tumblr" show="sub">
+		<title>Tumblr</title>		
+	</category>
+		
+	<category id="Basic" show="sub">
+		<title>Basic Variables</title>		
+	</category>
+	
+	<category id="Page" show="sub">
+		<title>Page</title>		
+	</category>
+
+	<category id="Post" show="sub">
+		<title>Post</title>		
+	</category>
+
+	<category id="Portrait" show="sub">
+		<title>Portrait URL</title>		
+	</category>
+	
+	<category id="Navigation" show="sub">
+		<title>Navigation</title>		
+	</category>
+	
+	<category id="Pages" show="sub">
+		<title>Pages</title>		
+	</category>
+	
+	<category id="Reblogs" show="sub">
+		<title>Reblogs</title>		
+	</category>
+	
+	<category id="PermalinkNavigation" show="sub">
+		<title>Permalink Navigation</title>		
+	</category>
+	
+	<category id="Date" show="sub">
+		<title>Date and Time</title>		
+	</category>
+	
+	<category id="Block" show="sub separated">
+		<title>Blocks</title>		
+	</category>
+			
+	<!-- Post Types -->
+	
+	<category id="Text" show="sub">
+		<title>Text</title>		
+	</category>
+
+	<category id="Photo" show="sub">
+		<title>Photo</title>		
+	</category>
+	
+	<category id="Photoset" show="sub">
+		<title>Photoset</title>		
+	</category>
+	
+	<category id="Answer" show="sub">
+		<title>Answer</title>		
+	</category>
+			
+	<category id="Audio" show="sub">
+		<title>Audio</title>		
+	</category>
+	
+	<category id="Chat" show="sub">
+		<title>Chat</title>		
+	</category>
+	
+	<category id="Link" show="sub">
+		<title>Link</title>		
+	</category>
+	
+	<category id="Quote" show="sub">
+		<title>Quote</title>		
+	</category>
+	
+	<category id="Video" show="sub">
+		<title>Video</title>		
+	</category>
+
+	<category id="Meta" show="inline separated"></category>
+	<category id="Single" show="inline separated"></category>
+	<category id="Action" show="inline separated"></category>
+	
+	<category id="Misc" show="sub separated">
+		<title>Misc</title>		
+	</category>
+
+	<category id="MonthDay" show="sub">
+		<title>Day of Month</title>		
+	</category>
+	
+	<category id="WeekDay" show="sub">
+		<title>Day of Week</title>		
+	</category>
+	
+	<category id="Suffix" show="sub">
+		<title>Suffix</title>		
+	</category>
+	
+	<category id="Time" show="sub">
+		<title>Time</title>		
+	</category>
+	
+	<category id="Month" show="sub">
+		<title>Month</title>		
+	</category>
+	
+	<category id="Year" show="sub">
+		<title>Year</title>		
+	</category>
+	
+	
+	<category id="NextPrev" show="inline separated"></category>
+	
+	<category id="Page" show="inline separated"></category>
+	
+	<category id="Root" show="inline separated"></category>
+	<category id="Parent" show="inline separated"></category>
+	
+</action-categories>

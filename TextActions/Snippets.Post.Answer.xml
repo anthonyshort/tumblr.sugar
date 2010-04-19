@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<action-recipes>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.answer.question" category="Tumblr/Post/Answer/Single">
+		<title>Question</title>
+		<text><![CDATA[{Question}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.answer.answer" category="Tumblr/Post/Answer/Single">
+		<title>Answer</title>
+		<text><![CDATA[{Answer}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.answer.asker" category="Tumblr/Post/Answer/Single">
+		<title>Asker</title>
+		<text><![CDATA[{Asker}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.answer.portraiturl16" category="Tumblr/Post/Answer/Portrait">
+		<title>Portrait URL (16x16)</title>
+		<text><![CDATA[{AskerPortraitURL-16}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.answer.portraiturl24" category="Tumblr/Post/Answer/Portrait">
+		<title>Portrait URL (24x24)</title>
+		<text><![CDATA[{AskerPortraitURL-24}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.answer.portraiturl30" category="Tumblr/Post/Answer/Portrait">
+		<title>Portrait URL (30x30)</title>
+		<text><![CDATA[{AskerPortraitURL-30}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.answer.portraiturl40" category="Tumblr/Post/Answer/Portrait">
+		<title>Portrait URL (40x40)</title>
+		<text><![CDATA[{AskerPortraitURL-40}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.answer.portraiturl48" category="Tumblr/Post/Answer/Portrait">
+		<title>Portrait URL (48x48)</title>
+		<text><![CDATA[{AskerPortraitURL-48}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.answer.portraiturl64" category="Tumblr/Post/Answer/Portrait">
+		<title>Portrait URL (64x64)</title>
+		<text><![CDATA[{AskerPortraitURL-64}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.answer.portraiturl96" category="Tumblr/Post/Answer/Portrait">
+		<title>Portrait URL (96x96)</title>
+		<text><![CDATA[{AskerPortraitURL-96}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.answer.portraiturl128" category="Tumblr/Post/Answer/Portrait">
+		<title>Portrait URL (128x128)</title>
+		<text><![CDATA[{AskerPortraitURL-128}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+
+</action-recipes>

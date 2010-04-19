@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<action-recipes>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.text.block" category="Tumblr/Post/Text">
+		<title>Title Block</title>
+		<text><![CDATA[{block:Title}{Title}{/block:Title}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.text.title" category="Tumblr/Post/Text">
+		<title>Title</title>
+		<text><![CDATA[{Title}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.post.text.body" category="Tumblr/Post/Text">
+		<title>Body</title>
+		<text><![CDATA[{Body}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+
+</action-recipes>

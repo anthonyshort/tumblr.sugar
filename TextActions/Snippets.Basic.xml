@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<action-recipes>
+
+	<snippet id="com.anthonyshort.Tumblr.snippets.title" category="Tumblr/Basic/Single/Blog">
+		<title>Blog Title</title>
+		<text><![CDATA[{Title}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.description" category="Tumblr/Basic/Single/Blog">
+		<title>Blog Description</title>
+		<text><![CDATA[{Description}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.metadescription" category="Tumblr/Basic/Single/Blog">
+		<title>Blog Description (Meta)</title>
+		<text><![CDATA[{MetaDescription}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.rss" category="Tumblr/Basic/Single/Meta">
+		<title>RSS Link</title>
+		<text><![CDATA[{RSS}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.favicon" category="Tumblr/Basic/Single/Meta">
+		<title>Favicon</title>
+		<text><![CDATA[{Favicon}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+	
+	<snippet id="com.anthonyshort.Tumblr.snippets.customcss" category="Tumblr/Basic/Single/Meta">
+		<title>Custom CSS</title>
+		<text><![CDATA[{CustomCSS}]]></text>
+		<syntax-context>tumblr, tumblr *</syntax-context>
+	</snippet>
+
+</action-recipes>
